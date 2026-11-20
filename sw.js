@@ -1,7 +1,7 @@
 /* Neon Galaksi service worker (vite.config.ts → dist/sw.js üretir). Yalnızca aynı origin statik varlıklar. */
-const VERSION = '0.8.0-4-mwor38o1';
+const VERSION = '0.8.1-5-mwosewqb';
 const CACHE = 'nova-' + VERSION;
-const PRECACHE = ["./","./index.html","./manifest.webmanifest","./favicon.png","./icons/icon-192.png","./icons/icon-512.png","./icons/apple-touch-icon.png","./assets/index-DEDpfDv8.js","./assets/dist-DwhOg3L3.js","./assets/esm-BQYWf-jD.js","./assets/esm-CDb4yWQS.js","./assets/esm-CLBnPJ9q.js","./assets/esm-Di6-kqWd.js","./assets/esm-IZdaEQS2.js","./assets/web-Bf5t6qM8.js","./assets/web-BvaLXKW7.js","./assets/web-CQmKUTje.js","./assets/web-CxP6LZvx.js","./assets/web-D7CcXyZi.js","./assets/web-KvWc4m9E.js","./assets/index-B1jxFapM.css"];
+const PRECACHE = ["./","./index.html","./manifest.webmanifest","./favicon.png","./icons/icon-192.png","./icons/icon-512.png","./icons/apple-touch-icon.png","./assets/index-DsU_U4xy.js","./assets/dist-DwhOg3L3.js","./assets/esm-BGley81R.js","./assets/esm-D4of6Zo-.js","./assets/esm-DahlmH1R.js","./assets/esm-DugjlrSI.js","./assets/esm-eBwI2Erd.js","./assets/web-BWEMdpBk.js","./assets/web-BoTj5C1C.js","./assets/web-BySMBUQz.js","./assets/web-CzcNXj_D.js","./assets/web-DkJsBySG.js","./assets/web-NHx09djz.js","./assets/index-C1pC1PgS.css"];
 /** Asla önbelleğe alınmayanlar: sürüm bilgisi, APK, indirme ve bilgi sayfaları. */
 const SKIP = [/\/version\.json$/, /\.apk$/, /\/indir\/?/, /\/gizlilik\/?/, /\/hesap-silme\/?/, /\/destek\/?/];
 
